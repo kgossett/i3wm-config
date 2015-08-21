@@ -83,6 +83,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ssh='TERM=rxvt-256color ssh'
 
 proxy="http://proxy.pncbank.com:8080"
 export http_proxy=$proxy
